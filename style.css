@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
     background-image: url("lidojums.png");
-    background-color: #ffffff; /* Used if the image is unavailable */
-    background-position: top; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 50%; /* Resize the background image to cover the entire container */
-   }
+    /* Full height */
+    height: 50%;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-   .left-center {
+
+.left-center {
     position: absolute;               /* 2 */
     top: 30%; 
     margin: auto;
@@ -18,6 +23,6 @@ body {
     text-align: left;
     font-size: larger;
     font-weight: bolder;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Montserrat', sans-serif;
   }
   
