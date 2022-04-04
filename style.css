@@ -26,3 +26,16 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
   
+  /* Media Queries */
+@media only screen and (max-width: 340px) {
+  
+    body {
+        background-image: url("lidojums.png");
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
