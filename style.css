@@ -3,7 +3,7 @@
 body {
     background-image: url("lidojums.png");
     /* Full height */
-    height: 50%;
+    height: 80%;
     /* Center and scale the image nicely */
     background-position: top;
     background-repeat: no-repeat;
@@ -27,15 +27,20 @@ body {
   }
   
   /* Media Queries */
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 570px) {
   
     body {
         background-image: url("lidojums.png");
         /* Full height */
-        height: 100%;
         /* Center and scale the image nicely */
-        background-position: top;
+        background-position-x: 50%;
+        background-position-y: 10%;
         background-repeat: no-repeat;
-        background-size: cover;
+        padding-left: 30%;
+        background-size: 120%;
     }
+
+    .left-center {
+        text-align: center;
+      }
 }
