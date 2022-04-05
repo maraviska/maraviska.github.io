@@ -26,6 +26,10 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
   
+  a {
+    color: black;
+  }
+  
   /* Media Queries */
 @media only screen and (max-width: 570px) {
   
