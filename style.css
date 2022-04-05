@@ -11,15 +11,13 @@ body {
 }
 
 
-.left-center {
-    position: absolute;               /* 2 */
-    top: 30%; 
-    margin: auto;
-    width: 20%;
-    border: 0px;
-    padding: 10px;
-    padding-left: 10%;
-    float: left;
+.linki {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    min-height: 10vh;
     text-align: left;
     font-size: larger;
     font-weight: bolder;
@@ -30,7 +28,7 @@ body {
     color: black;
   }
   
-  /* Media Queries */
+/* Media Queries */
 @media only screen and (max-width: 570px) {
   
     body {
@@ -44,7 +42,8 @@ body {
         background-size: 130%;
     }
 
-    .left-center {
+    .linki {
         text-align: center;
+        left: 50%;
       }
 }
