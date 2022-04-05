@@ -34,10 +34,10 @@ body {
         /* Full height */
         /* Center and scale the image nicely */
         background-position-x: 50%;
-        background-position-y: 10%;
+        background-position-y: 5%;
         background-repeat: no-repeat;
         padding-left: 30%;
-        background-size: 120%;
+        background-size: 130%;
     }
 
     .left-center {
